@@ -1,0 +1,93 @@
+[
+    {
+      "name": "Virat Kohli",
+      "price": 12000000,
+      "country": "India",
+      "rating": 95,
+      "category": "Batsman",
+      "style": "Right-handed",
+      "image": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png"
+    },
+    {
+      "name": "Kane Williamson",
+      "price": 9000000,
+      "country": "New Zealand",
+      "rating": 92,
+      "category": "Batsman",
+      "style": "Right-handed",
+      "image": "https://i.namu.wiki/i/myZLJchk3lwk7G-o11lV5aKv6AfmGHZamLFXNgwCJnOmu0LJogeOFbUut_jHmlmUrnVth2PgGaawxM2IxOsjgA.webp"
+    },
+    {
+      "name": "Ben Stokes",
+      "price": 15000000,
+      "country": "England",
+      "rating": 90,
+      "category": "All-rounder",
+      "style": "Left-handed",
+      "image": "https://www.iplbetonline.in/wp-content/uploads/2023/04/177-1-780x780.png"
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "price": 10000000,
+      "country": "India",
+      "rating": 89,
+      "category": "Bowler",
+      "style": "Right-arm fast",
+      "image": "https://documents.iplt20.com/ipl/IPLHeadshot2024/9.png"
+    },
+    {
+      "name": "Jos Buttler",
+      "price": 8000000,
+      "country": "England",
+      "rating": 88,
+      "category": "Wicketkeeper",
+      "style": "Right-handed",
+      "image": "https://www.iplbetonline.in/wp-content/uploads/2023/04/509.png"
+    },
+    {
+      "name": "David Warner",
+      "price": 9500000,
+      "country": "Australia",
+      "rating": 91,
+      "category": "Batsman",
+      "style": "Left-handed",
+      "image": "https://documents.iplt20.com/ipl/IPLHeadshot2024/214.png"
+    },
+    {
+      "name": "Pat Cummins",
+      "price": 11000000,
+      "country": "Australia",
+      "rating": 87,
+      "category": "Bowler",
+      "style": "Right-arm fast",
+      "image": "https://documents.iplt20.com/ipl/IPLHeadshot2024/33.png"
+    },
+    {
+      "name": "Ravindra Jadeja",
+      "price": 9500000,
+      "country": "India",
+      "rating": 85,
+      "category": "All-rounder",
+      "style": "Left-handed",
+      "image": "https://indianden.in/wp-content/uploads/2023/05/46-1.png"
+    },
+    {
+      "name": "Quinton de Kock",
+      "price": 8500000,
+      "country": "South Africa",
+      "rating": 86,
+      "category": "Wicketkeeper",
+      "style": "Left-handed",
+      "image": "https://www.yolo247.co/sports/tournaments/wp-content/uploads/2024/02/quinton-de-kock-ipl.webp"
+    },
+    {
+      "name": "Mitchell Starc",
+      "price": 12000000,
+      "country": "Australia",
+      "rating": 94,
+      "category": "Bowler",
+      "style": "Leftt-arm Fast",
+      "image": "https://www.yolo247.co/sports/tournaments/wp-content/uploads/2024/01/Mitchell-Starc.png"
+    }
+  ]
+  
