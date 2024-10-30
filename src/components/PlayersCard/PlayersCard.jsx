@@ -14,8 +14,8 @@ const PlayersCard = ({ onSelect }) => {
   return (
     <>
       {players.map((player) => (
-        <div key={player.name} className="card bg-[#1313131A] w-[420px] shadow-xl border-2 border-[#E7FE29] mb-4">
-          <figure className="px-4 pt-5 h-96">
+        <div key={player.name} className="card bg-[#1313131A] lg:w-[420px] shadow-xl border-2 border-[#E7FE29] mb-4">
+          <figure className="px-4 pt-5 h-80 lg:h-96">
             <img
               src={player.image}
               alt={player.name}
@@ -43,10 +43,10 @@ const PlayersCard = ({ onSelect }) => {
             <p className="text-[#131313B3]">{player.style}</p>
           </div>
           <div className="px-6 pt-3 pb-6">
-            <div className="flex w-full items-center justify-between">
+            <div className="flex flex-col gap-2 lg:flex-row w-full items-center justify-between">
               <p className="font-semibold">Price: ${player.price.toLocaleString()}</p>
               <button 
-                className="btn bg-white border border-[#E7FE29] shadow-inner" 
+                className="btn w-full lg:w-fit bg-white border border-[#E7FE29] shadow-inner" 
                 onClick={() => onSelect(player)} // Handle player selection
               >
                 Choose Player

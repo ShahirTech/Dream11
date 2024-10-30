@@ -56,8 +56,8 @@ const Main = ({ coinBalance, setCoinBalance }) => {
         </div>
       ) : (
         <>
-          <div className="flex justify-between items-center pb-12 px-3">
-            <h2 className="text-2xl font-bold">
+          <div className="flex flex-col md:flex-row space-y-2 justify-between items-center pb-12 px-3">
+            <h2 className="lg:text-2xl font-bold">
               {view === 'available' ? 'Available Players' : `Selected Players (${selectedPlayers.length}/6)`}
             </h2>
             <div className="join grid grid-cols-2">
@@ -75,7 +75,7 @@ const Main = ({ coinBalance, setCoinBalance }) => {
               </button>
             </div>
           </div>
-          <section className="grid grid-cols-3 gap-8 justify-center items-center mb-12">
+          <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center items-center mb-12">
             {view === 'available' && <PlayersCard onSelect={handleSelectPlayer} />}
           </section>
           <section className="grid grid-cols-1 justify-center items-center gap-0 w-full">

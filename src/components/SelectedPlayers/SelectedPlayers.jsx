@@ -14,7 +14,7 @@ const SelectedPlayers = ({ players, onRemove }) => {
           <div className="flex items-center gap-6">
             <img className="border w-20 h-20 rounded-2xl" src={player.image} alt={player.name} />
             <div>
-              <h2 className="font-semibold text-2xl">{player.name}</h2>
+              <h2 className="font-semibold lg:text-2xl">{player.name}</h2>
               <p className="text-[#13131399]">{player.category}</p>
               <p className="text-[#13131399]">Price: ${player.price.toLocaleString()}</p>
             </div>
