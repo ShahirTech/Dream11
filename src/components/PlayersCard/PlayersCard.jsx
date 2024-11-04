@@ -4,7 +4,8 @@ const PlayersCard = ({ onSelect }) => {
   const [players, setPlayers] = useState([]);
 
   useEffect(() => {
-    fetch('/players.json') 
+    // fetch('/players.json') 
+    fetch(`${import.meta.env.BASE_URL}players.json`)
       .then((res) => res.json())
       .then((data) => {
         setPlayers(data);
