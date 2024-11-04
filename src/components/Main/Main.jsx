@@ -82,7 +82,7 @@ const Main = ({ coinBalance, setCoinBalance }) => {
             {view === 'selected' && <SelectedPlayers players={selectedPlayers} onRemove={handleRemovePlayer} />}
           </section>
           {view === 'selected' && (
-            <div className='border border-gray-900 p-1 rounded-2xl w-fit mt-4'>
+            <div className='border border-gray-900 p-1 rounded-2xl w-fit mt-4 mb-96'>
               <button className='btn bg-[#E7FE29] rounded-xl' onClick={handleAddMorePlayers}>
                 Add More Players
               </button>
