@@ -20,4 +20,4 @@ Dream Team Cricket Selector is a web application that empowers users to assemble
 3. **User-Friendly Notifications**: Stay informed with alerts for actions like player selection, removal, and credit claims, enhancing the overall user experience.
 
 ## Live link to the deployed project
-# [https://b10a7-bpl-dream11.netlify.app/](https://b10a7-bpl-dream11.netlify.app/)
+# [Live WebApp](https://b10a7-d11.netlify.app/)
